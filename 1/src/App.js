@@ -5,12 +5,12 @@ function App() {
   return (
     
     <div className="container">
-    <header>
+    <main>
       <ItemContextProvider>
         <AllItems/>
         <SelectedItems/>
       </ItemContextProvider>
-    </header>
+    </main>
   </div>
 
   );
